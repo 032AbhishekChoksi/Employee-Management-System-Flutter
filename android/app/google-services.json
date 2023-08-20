@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "400652156863",
+    "project_id": "ems-flutter-82162",
+    "storage_bucket": "ems-flutter-82162.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400652156863:android:b269844896c1c9e58f2b0a",
+        "android_client_info": {
+          "package_name": "com.abhishekchoksi.employee_management_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400652156863-gnlihah6gc88bm4ig031flkn88uqn1h7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx3K9khm-6yCCcbVZdUIGGRXX-W-dYhuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400652156863-gnlihah6gc88bm4ig031flkn88uqn1h7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,60 +1,36 @@
-# Employee Management System in Flutter Appliction
+# Employee Management System in Flutter Application
 
-Create a ﬂuꢀer applicaꢁon for Employee Management System where system has two users
+Develop a Flutter application for an Employee Management System that accommodates two types of users: Admin and Employee. Employees can register themselves in the system using a registration form. The form requires information such as employee number, name, contact number, gender, email, password, city, date of birth, designation, and offered salary.
 
-Admin and Employee. Employee should be able to register him/herself in to the system.
+Upon successful registration, employees will be automatically directed to the login page. Once logged in, an employee's session state will persist, eliminating the need for repeated logins. The dashboard provides employees with access to a list of their submitted leave applications and enables them to apply for new leave.
 
-Registraꢁon form should take employer no, employee name, contact no, gender, email,
-
-password, city, date of birth, designaꢁon and salary oﬀered. Once the employee is successfully
-
-registered, they should be redirected directly to login page. Employee should be able to logged
-
-in to the system and unꢁl employee is not logged out, state of the employee should be
-
-maintained and system should not ask for the login again. On dashboard, employee can able
-
-to see the list of applied leave and it should have the facility to apply for new leave.
-
-Admin should be able to logged in to the system. Admin dashboard should have faciliꢁes like
-
-approve/reject employees, approve/reject leave and give increment. Once the employee has
-
-registered to the system, then it should not be allowed to logged in unꢁl admin has not
-
-approved the employee. Admin can able to see the list of leaves applied by the employees and
-
-it should have the facility to approve/reject the leave. Admin should have the facility where
-
-admin can give the increment to their employees. Do the increment based on the given
-
-criteria.
-
-**Designaꢁon**
-
-**Increment (%)**
-
-Project Manager
-
-Assistant Manager
-
-Sr. Developer
-
-25
-
-20
-
-15
-
-10
-
-Jr. Developer
+Admin users can log into the system as well. The admin dashboard offers functions like approving/rejecting employee registrations, handling leave requests, and granting salary increments. After an employee registers, they cannot log in until the admin approves their registration. The admin dashboard displays a list of leave applications from employees, granting the admin the capability to approve or reject them. Moreover, the admin can initiate salary increments for employees by predefined criteria.
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Increment (%)</th>
+  </tr>
+  <tr>
+    <td>Project Manager</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Assistant Manager</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Sr. Developer</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>Jr. Developer</td>
+    <td>10</td>
+  </tr>
+</table>
 
 **Note:**
-
-Make use of appropriate widgets.
-
-Do the proper validaꢁons.
-
-Make use of ﬁre store and shared preferences.
-
+<ul>
+<li>Make use of appropriate widgets.</li>
+<li>Do the proper validaꢁons.</li>
+<li>Make use of ﬁre store and shared preferences.</li>
+</ul>
